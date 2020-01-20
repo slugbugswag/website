@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://slubbugswag.com/"
+baseURL = "http://slugbugswag.com/"
 languageCode = "en-us"
 title = "SlugBugSwag"
 theme = "liva-hugo"
