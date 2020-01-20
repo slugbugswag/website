@@ -1,0 +1,115 @@
+######################## default configuration ####################
+baseURL = "http://slubbugswag.com/"
+languageCode = "en-us"
+title = "SlugBugSwag"
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 6
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+  
+############################## navigation ###############################
+[menu]
+  
+  # main menu
+  [[menu.main]]
+  name = "About"
+  URL = "about/about"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Post"
+  URL = "blog"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 4
+
+  # footer menu
+  [[menu.footer]]
+  name = "About"
+  URL = "about/about"
+  weight = 2
+  
+  [[menu.footer]]
+  name = "Post"
+  URL = "blog"
+  weight = 3
+  
+  [[menu.footer]]
+  name = "Contact"
+  URL = "contact"
+  weight = 4
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo_75.jpg"
+home = "Home"
+# Meta data
+description = "SlugBugSwag"
+author = "SlugBugSwag"
+# Google Analitycs
+googleAnalitycsID = "UA-156454697-1"
+# Contact Information
+mobile = ""
+email = "slugbugswag@gmail.com"
+location = "Oklahoma"
+# copyright
+copyright = "| @2020 [SlugBugSwag](https://slugbugswag.com) All Rights Reserved |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = true
+
+############################ news letter ########################
+[params.newsletter]
+enable = true
+title = "Join Our Newsletter"
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/slugbugswag/"
+
+[[params.social]]
+title = "instagram"
+icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
+link = "https://www.instagram.com/slugbugswag/"
